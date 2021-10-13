@@ -263,5 +263,5 @@ mortality_data.groupby('Year')['DeathRate'].agg(
 mortality_data.pivot(index='Year',columns='AgeGroup')['DeathRate'].plot()
 # %%
 mortality_data.groupby('AgeGroup')['DeathRate'].agg(['mean','median','std']
-).plot.barh(legend='reverse')
+    ).plot.barh(legend='reverse')
 # %%
