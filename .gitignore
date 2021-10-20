@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+/M8/data/RDS-2013-0009.4_SQLITE.zip
+/M8/data/Data
+/M8/data/oesm18all.zip
+
 __pycache__/
 *.py[cod]
 *$py.class
